@@ -15,7 +15,7 @@ const App = () => {
       <div className={wallClass}>
         <div className="switch-plate">
           <div className="screw" />
-          <div className="switch" onClick={this.toggleLight}>
+          <div className="switch" onClick={toggleLight}>
             <div className="switch-handle" />
           </div>
           <div className="screw" />
