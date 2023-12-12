@@ -8,7 +8,6 @@ const App = () => {
     this.setState({ on: !isOn });
   };
 
-  render() {
     let wallClass = "wall off";
     if (this.state.on) {
       wallClass = "wall on";
@@ -23,7 +22,6 @@ const App = () => {
           <div className="screw" />
         </div>
       </div>
-    );
   }
 }
 
