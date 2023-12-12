@@ -3,9 +3,8 @@ import React, {useState} from "react";
 const App = () => {
   const [isOn, setIsOn] = useState(true);
 
-  toggleLight = () => {
-    const isOn = this.state.on;
-    this.setState({ on: !isOn });
+  const toggleLight = () => {
+    setIsOn();
   };
 
     let wallClass = "wall off";
