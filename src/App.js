@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 
 const App = () => {
-  state = { on: true };
+  const [isOn, setIsOn] = useState(true);
 
   toggleLight = () => {
     const isOn = this.state.on;
