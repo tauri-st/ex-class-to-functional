@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class App extends Component {
+const App = () => {
   state = { on: true };
 
   toggleLight = () => {
