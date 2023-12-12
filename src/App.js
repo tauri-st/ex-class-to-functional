@@ -9,7 +9,7 @@ const App = () => {
 
     let wallClass = "wall off";
     if (this.state.on) {
-      wallClass = "wall on";
+      props.toggleLight(isOn);
     }
     return (
       <div className={wallClass}>
