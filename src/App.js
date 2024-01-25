@@ -4,7 +4,7 @@ const App = () => {
   const [isOn, setIsOn] = useState(true);
 
   const toggleLight = () => {
-    setIsOn();
+    setIsOn(!isOn);
   };
 
   let wallClass = "wall off";
@@ -13,7 +13,7 @@ const App = () => {
   // the hooks syntax. Hint: You don’t need “this” because this 
   // isn’t a class component anymore.
   if (isOn) {
-    props.toggleLight(isOn);
+    wallClass="wall on";
   }
   return (
     <div className={wallClass}>
