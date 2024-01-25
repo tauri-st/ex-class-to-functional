@@ -12,7 +12,7 @@ const App = () => {
   // component and to correctly update the state value using 
   // the hooks syntax. Hint: You don’t need “this” because this 
   // isn’t a class component anymore.
-  if (this.state.on) {
+  if (isOn) {
     props.toggleLight(isOn);
   }
   return (
