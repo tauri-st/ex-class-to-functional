@@ -8,6 +8,10 @@ const App = () => {
   };
 
   let wallClass = "wall off";
+  // Update the toggleLight function to work in a functional 
+  // component and to correctly update the state value using 
+  // the hooks syntax. Hint: You don’t need “this” because this 
+  // isn’t a class component anymore.
   if (this.state.on) {
     props.toggleLight(isOn);
   }
